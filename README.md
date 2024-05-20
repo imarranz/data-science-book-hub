@@ -58,21 +58,22 @@ Welcome to the **Data Science Book Hub**, a curated collection of the most pivot
 
 ### Available Online
 
-[Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook/introduction.html)
+[Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook/introduction.html) (Rafael Irizarry) This book likely provides a comprehensive overview of data science, covering essential tools and methods. The introduction probably sets the stage for newcomers to understand the fundamental concepts and applications of data science in various fields.
 
-[The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/)
+[The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/) (Roger D. Peng and Elizabeth Matsui) This book might focus on the process of data analysis, from formulating research questions to extracting insights from data. It's likely aimed at helping readers develop a thoughtful approach to data analysis that transcends mere technical skills.
 
-[https://bookdown.org/rdpeng/rprogdatascience/](https://bookdown.org/rdpeng/rprogdatascience/)
+[https://bookdown.org/rdpeng/rprogdatascience/](https://bookdown.org/rdpeng/rprogdatascience/) (Roger D. Peng) This resource probably serves as a guide to using R for data science, covering programming basics and advanced techniques. It's ideal for those who want to deepen their understanding of R as a tool for data analysis and statistical modeling.
 
-[Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
+[Introduction to Modern Statistics](https://openintro-ims.netlify.app/) (Mine Çetinkaya-Rundel and Johanna Hardin) This textbook likely introduces modern statistical techniques and theories, emphasizing application over theory. It might be perfect for students and professionals seeking a current perspective on statistical methods.
 
-[Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+[Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) (Claus O. Wilke) This book probably focuses on the principles of visualizing data effectively, using examples and case studies to illustrate how to communicate complex information clearly and effectively.
 
-[Data Visualization](https://socviz.co/)
+[Data Visualization](https://socviz.co/) (Kieran Healy) This text likely offers practical strategies for visualizing qualitative and quantitative data, aiming to enhance the reader’s ability to design meaningful and interpretable visualizations.
 
-[Modern Data Science with R](https://x.com/RosanaFerrero/status/1645756093597982721)
+[Modern Data Science with R](https://x.com/RosanaFerrero/status/1645756093597982721) (Benjamin S. Baumer, Daniel T. Kaplan, and Nicholas J. Horton) This source might provide a broad overview of data science techniques using R, covering data manipulation, modeling, and prediction, suitable for readers with a basic understanding of R programming.
 
-[R for Data Science](https://es.r4ds.hadley.nz/)
+
+[R for Data Science](https://es.r4ds.hadley.nz/) (Hadley Wickham and Garrett Grolemund) This book likely focuses on using R and the tidyverse to handle, process, and visualize data effectively, ideal for those looking to streamline their data analysis workflows in R.
 
 ## Contributing
 
