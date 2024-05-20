@@ -26,6 +26,8 @@ Welcome to the **Data Science Book Hub**, a curated collection of the most pivot
 
 ## List of Books
 
+### Hosted on GitHub
+
 | User | Repository | License | Downloads | Stars | Followers |
 |:-|:-|:-|:-|:-|:-|
 | <a href= "https://github.com/jakevdp/">jakevdp</a> | <a href= "https://github.com/jakevdp/PythonDataScienceHandbook/">PythonDataScienceHandbook</a> | <img src="https://img.shields.io/github/license/jakevdp/PythonDataScienceHandbook.svg" alt = ""/> | <img src="https://img.shields.io/github/downloads/jakevdp/PythonDataScienceHandbook/total.svg" alt = ""/> | <img src="https://img.shields.io/github/stars/jakevdp/PythonDataScienceHandbook.svg" alt = ""/> | <img src="https://img.shields.io/github/followers/jakevdp.svg?style=social&label=Follow&maxAge=2592000" alt = ""/> |
@@ -53,6 +55,24 @@ Welcome to the **Data Science Book Hub**, a curated collection of the most pivot
 | <a href= "https://github.com/cdr-book/">cdr-book</a> | <a href= "https://github.com/cdr-book/cdr-book.github.io/">cdr-book.github.io</a> | <img src="https://img.shields.io/github/license/cdr-book/cdr-book.github.io.svg" alt = ""/> | <img src="https://img.shields.io/github/downloads/cdr-book/cdr-book.github.io/total.svg" alt = ""/> | <img src="https://img.shields.io/github/stars/cdr-book/cdr-book.github.io.svg" alt = ""/> | <img src="https://img.shields.io/github/followers/cdr-book.svg?style=social&label=Follow&maxAge=2592000" alt = ""/> |
 | <a href= "https://github.com/mml-book/">mml-book</a> | <a href= "https://github.com/mml-book/mml-book.github.io/">mml-book.github.io</a> | <img src="https://img.shields.io/github/license/mml-book/mml-book.github.io.svg" alt = ""/> | <img src="https://img.shields.io/github/downloads/mml-book/mml-book.github.io/total.svg" alt = ""/> | <img src="https://img.shields.io/github/stars/mml-book/mml-book.github.io.svg" alt = ""/> | <img src="https://img.shields.io/github/followers/mml-book.svg?style=social&label=Follow&maxAge=2592000" alt = ""/> |
 | <a href= "https://github.com/d2l-ai/">d2l-ai</a> | <a href= "https://github.com/d2l-ai/d2l-en/">d2l-en</a> | <img src="https://img.shields.io/github/license/d2l-ai/d2l-en.svg" alt = ""/> | <img src="https://img.shields.io/github/downloads/d2l-ai/d2l-en/total.svg" alt = ""/> | <img src="https://img.shields.io/github/stars/d2l-ai/d2l-en.svg" alt = ""/> | <img src="https://img.shields.io/github/followers/d2l-ai.svg?style=social&label=Follow&maxAge=2592000" alt = ""/> |
+
+### Available Online
+
+[Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook/introduction.html)
+
+[The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/)
+
+[https://bookdown.org/rdpeng/rprogdatascience/](https://bookdown.org/rdpeng/rprogdatascience/)
+
+[Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
+
+[Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+
+[Data Visualization](https://socviz.co/)
+
+[Modern Data Science with R](https://x.com/RosanaFerrero/status/1645756093597982721)
+
+[R for Data Science](https://es.r4ds.hadley.nz/)
 
 ## Contributing
 
