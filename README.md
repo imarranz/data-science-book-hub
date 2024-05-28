@@ -12,7 +12,7 @@
   <a href="LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-red.svg?longCache=true" alt="MIT License">
   </a>
-   <a href="https://github.com/imarranz/data-science-book-hub"><img src="https://img.shields.io/github/stars/imarranz/data-science-book-hub" alt="Stars"/></a>
+   <a href="https://github.com/imarranz/data-science-book-hub"><img src="https://img.shields.io/github/stars/imarranz/data-science-book-hub" alt="Stars"/>
   </a>
 </p>
 
@@ -71,7 +71,6 @@ Welcome to the **Data Science Book Hub**, a curated collection of the most pivot
 [Data Visualization](https://socviz.co/) (Kieran Healy) This text likely offers practical strategies for visualizing qualitative and quantitative data, aiming to enhance the reader’s ability to design meaningful and interpretable visualizations.
 
 [Modern Data Science with R](https://x.com/RosanaFerrero/status/1645756093597982721) (Benjamin S. Baumer, Daniel T. Kaplan, and Nicholas J. Horton) This source might provide a broad overview of data science techniques using R, covering data manipulation, modeling, and prediction, suitable for readers with a basic understanding of R programming.
-
 
 [R for Data Science](https://es.r4ds.hadley.nz/) (Hadley Wickham and Garrett Grolemund) This book likely focuses on using R and the tidyverse to handle, process, and visualize data effectively, ideal for those looking to streamline their data analysis workflows in R.
 
