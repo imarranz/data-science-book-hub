@@ -15,7 +15,6 @@
    <a href="https://github.com/imarranz/data-science-book-hub"><img src="https://img.shields.io/github/stars/imarranz/data-science-book-hub" alt="Stars"/>
   </a>
   <!-- https://shields.io/badges/website -->
-  </a>
    <a href="https://imarranz.github.io/data-science-book-hub/"><img src="https://img.shields.io/website?url=https%3A%2F%2Fimarranz.github.io%2Fdata-science-book-hub%2F&up_message=Data%20Science%20Book%20Hub" alt="Web"/>
   </a>
 </p>
