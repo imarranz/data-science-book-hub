@@ -77,7 +77,9 @@ Welcome to the **Data Science Book Hub**, a curated collection of the most pivot
 
 [Improving Your Statistical Inferences](https://lakens.github.io/statistical_inferences/) (Daniel Lakens) This resource might focus on enhancing readers' understanding of statistical concepts and methods. It likely offers a deeper look into hypothesis testing, p-values, confidence intervals, and power analysis, aiming to improve the quality of statistical inference in research.
 
-[Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook/introduction.html) (Rafael Irizarry) This book likely provides a comprehensive overview of data science, covering essential tools and methods. The introduction probably sets the stage for newcomers to understand the fundamental concepts and applications of data science in various fields.
+[Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook/introduction.html) (Rafael A. Irizarry) This book likely provides a comprehensive overview of data science, covering essential tools and methods. The introduction probably sets the stage for newcomers to understand the fundamental concepts and applications of data science in various fields.
+
+[Introducción a la Ciencia de Datos](https://rafalab.dfci.harvard.edu/dslibro/) (Rafael A. Irizarry) This book began as the notes used to teach the HarvardX Data Science Series classes. The Rmarkdown code used to generate the book is available on [GitHub](https://github.com/rafalab/dsbook).
 
 [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) (Mine Çetinkaya-Rundel and Johanna Hardin) Already covered, this textbook likely continues to provide a modern approach to statistics with an emphasis on data analysis and computational practice.
 
