@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Ibon Martínez-Arranz">
+  <meta property="article:author" content="https://github.com/imarranz" />
+  <meta property="og:site_name" content="Data Science Book Hub" />
+  <meta property="og:url" content="https://imarranz.github.io/data-science-book-hub/" />
+  <meta property="og:description" content="Colección organizada por Ibon Martínez-Arranz de libros de Data Science con filtros y búsqueda." />
+
+  <title>Data Science Book Hub</title>
+  <meta name="description" content="Colección de libros de Data Science (Python, R, ML, Estadística, Visualización) con búsqueda y filtros." />
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+      <text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+  <style>
+    /* Estilo base para selects */
+    select {
+      background-color: var(--card); /* mismo color que las tarjetas */
+      color: var(--fg);
+    }
+
+    /* Opciones dentro del desplegable */
+    select option {
+      background-color: var(--card);
+      color: var(--fg);
+    }
+    :root{ --bg:#ffffff; --fg:#0f172a; --muted:#475569; --card:#f8fafc; --accent:#2563eb; --chip:#e2e8f0; --border:#e5e7eb; }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0b1220; --fg:#e6edf7; --muted:#9aa4b2; --card:#0f172a; --accent:#60a5fa; --chip:#1f2937; --border:#1f2a3a; }
+    }
+    *{box-sizing:border-box} html,body{margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.5}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .counter { color: var(--muted); margin: 6px 0 0; font-size: 0.95rem; }
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{padding:48px 0 24px}
+    .hero h1{font-size:clamp(2.5rem,5vw,4rem);margin:.2em 0}
+    .hero p{color:var(--muted);margin-top:8px}
+    .controls{display:grid;grid-template-columns:1fr 200px 200px;gap:12px;margin:24px 0}
+    @media(max-width:860px){.controls{grid-template-columns:1fr 1fr}}
+    @media(max-width:580px){.controls{grid-template-columns:1fr}}
+    input[type="search"],select{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:transparent;color:var(--fg)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    @media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:640px){.grid{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+    .title{font-weight:900;margin:0}
+    .meta{color:var(--muted);font-size:.9rem}
+    .chips{margin-top:4px;display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:v76ar(--chip);border:1px solid var(--border);padding:2px 8px;border-radius:999px;font-size:.8rem}
+    .actions{display:flex;gap:10px;margin-top:8px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:8px 10px;border-radius:10px;border:1px solid var(--border);background:transparent}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:white}
+    footer{margin:40px 0;color:var(--muted);font-size:1.2rem}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+    .empty{color:var(--muted); text-align:center; padding:32px 0}
+    .err{color:#b91c1c}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero" role="banner">
+      <h1>Data Science Book Hub</h1>
+        <p style="color:var(--muted); font-size:1.3rem; margin-top:6px;">
+        Una colección de libros y recursos abiertos de Data Science para estudiantes, profesionales y entusiastas. Filtra por temas, encuentra tu próxima lectura y ábrela al instante en GitHub o en su versión online.
+        </p>
+        <p style="color:var(--muted); font-size:1.1rem; margin-top:6px;">
+          por Ibon Martinez-Arranz |
+          <a href="https://github.com/imarranz" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-%40imarranz-181717?logo=github&style=flat"
+                alt="GitHub @imarranz" style="vertical-align:middle; margin-left:4px;">
+          </a> |
+          <a href="https://github.com/imarranz/data-science-book-hub/pulls">
+            <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests" style="vertical-align:middle; margin-left:4px;">
+          </a> |
+          <a href="https://github.com/imarranz/data-science-book-hub" target="_blank">
+            <img src="https://img.shields.io/github/stars/imarranz/data-science-book-hub?style=social"
+                alt="GitHub Stars" style="vertical-align:middle; margin-left:4px;">
+          </a>
+        </p>
+      <hr>
+      <div class="controls" role="search">
+        <label class="sr-only" for="q">Buscar</label>
+        <input id="q" type="search" placeholder="Buscar por título, autor, tema..." autocomplete="off" />
+        <label class="sr-only" for="lang">Lenguaje</label>
+        <select id="lang">
+          <option value="">Lenguaje: todos</option>
+          <option>Python</option>
+          <option>R</option>
+          <option>General</option>
+        </select>
+        <label class="sr-only" for="topic">Tema</label>
+        <select id="topic">
+          <option value="">Tema: todos</option>
+          <option>Machine Learning</option>
+          <option>Estadística</option>
+          <option>Visualización</option>
+          <option>SQL</option>
+          <option>Deep Learning</option>
+          <option>Data Engineering</option>
+          <option>Bayes</option>
+          <option>Explainability</option>
+          <option>Genetic Algorithms</option>
+          <option>Finanzas</option>
+          <option>IoT</option>
+          <option>Meta</option>
+          <option>Programación</option>
+          <option>Web</option>
+          <option>Comunicación</option>
+          <option>R Internals</option>
+          <option>Optimization</option>
+        </select>
+      </div>
+      <p id="counter" style="color: var(--muted); margin: 6px 0 0;"></p>
+    </header>
+
+    <main aria-live="polite">
+      <section class="section">
+        <div id="grid" class="grid"></div>
+        <p id="status" class="empty"></p>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <p>
+        Tus contribuciones son las que hacen que <strong>Data Science Book Hub</strong> sea un recurso vivo y colaborativo.
+        Si tienes sugerencias para añadir nuevos libros o mejorar el contenido existente, tus ideas serán bienvenidas e interesantes para toda la comunidad de ciencia de datos. <a href="https://github.com/imarranz/data-science-book-hub" target="_blank">Contribuye en GitHub</a>.
+      </p>
+    </footer>
+  </div>
+
+<script>
+const grid = document.getElementById('grid');
+const statusEl = document.getElementById('status');
+const q = document.getElementById('q');
+const lang = document.getElementById('lang');
+const topic = document.getElementById('topic');
+
+let BOOKS = [];
+
+function matches(book){
+  const query = (q.value || "").toLowerCase();
+  const haystack = [book.title, book.author, book.blurb, ...(book.topic||[]), ...(book.tags||[])].join(" ").toLowerCase();
+  const qok = !query || haystack.includes(query);
+  const lok = !lang.value || (book.lang === lang.value);
+  const tok = !topic.value || (book.topic||[]).includes(topic.value);
+  return qok && lok && tok;
+}
+
+function card(book){
+  const t = (book.topic||[]).map(x=>`<span class="chip" aria-label="tema">${x}</span>`).join("");
+  const s = (book.tags||[]).map(x=>`<span class="chip">${x}</span>`).join("");
+  return `
+    <article class="card" role="article">
+      <h3 class="title">${book.title}</h3>
+      <div class="meta">${book.author} • ${book.lang}</div>
+      <div class="chips">${t}${s}</div>
+      ${book.blurb ? `<p>${book.blurb}</p>` : ""}
+      <div class="actions">
+        ${book.github ? `<a class="btn" href="${book.github}" target="_blank" rel="noopener">GitHub</a>` : ""}
+        ${book.online ? `<a class="btn primary" href="${book.online}" target="_blank" rel="noopener">Leer online</a>` : ""}
+      </div>
+    </article>
+  `;
+}
+
+function render(){
+  const items = BOOKS.filter(matches);
+  grid.innerHTML = items.map(card).join("");
+  statusEl.textContent = items.length ? "" : "No se encontraron libros con esos filtros.";
+}
+
+async function loadBooks(){
+  try{
+    // cache-bust sencillo por si GitHub Pages sirve versión antigua:
+    const res = await fetch('books.json?v=' + Date.now());
+    if(!res.ok) throw new Error("HTTP " + res.status);
+    BOOKS = await res.json();
+    render();
+  }catch(err){
+    statusEl.innerHTML = `<span class="err">Error cargando books.json</span>. Verifica que el archivo existe en /docs y que GitHub Pages está activo.`;
+  }
+}
+
+
+
+[q, lang, topic].forEach(el => el.addEventListener('input', render));
+loadBooks();
+</script>
+</body>
+</html>
+

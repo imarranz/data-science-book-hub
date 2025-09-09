@@ -1,0 +1,384 @@
+ 
+[
+  { "title":"Python Data Science Handbook", "author":"Jake VanderPlas", "lang":"Python",
+    "topic":["Machine Learning","Estadística"], "github":"https://github.com/jakevdp/PythonDataScienceHandbook",
+    "online":"https://jakevdp.github.io/PythonDataScienceHandbook/",
+    "blurb":"NumPy, Pandas, Matplotlib y scikit-learn en Jupyter.", "tags":["GitHub","Online"] },
+
+  { "title":"Introduction to Machine Learning with Python", "author":"Andreas C. Müller, Sarah Guido",
+    "lang":"Python", "topic":["Machine Learning"],
+    "github":"https://github.com/amueller/introduction_to_ml_with_python", "online":"",
+    "blurb":"Código y notebooks del libro práctico con scikit-learn.", "tags":["GitHub"] },
+
+  { "title":"Python for Data Analysis (2ª ed.)", "author":"Wes McKinney", "lang":"Python",
+    "topic":["Data Engineering","Estadística"], "github":"https://github.com/wesm/pydata-book", "online":"",
+    "blurb":"Data wrangling con Pandas por su autor.", "tags":["GitHub"] },
+
+  { "title":"Machine Learning Pocket Reference", "author":"Matt Harrison", "lang":"Python",
+    "topic":["Machine Learning"], "github":"https://github.com/mattharrison/ml_pocket_reference", "online":"",
+    "blurb":"Ejemplos de capítulo en notebooks.", "tags":["GitHub"] },
+
+  { "title":"Streamlit for Data Science", "author":"Tyler Richards", "lang":"Python",
+    "topic":["Visualización","Data Engineering"], "github":"https://github.com/tylerjrichards/Streamlit-for-Data-Science",
+    "online":"", "blurb":"Apps de datos con Streamlit paso a paso.", "tags":["GitHub"] },
+
+  { "title":"Interpretable Machine Learning with Python", "author":"Packt Publishing (repo)", "lang":"Python",
+    "topic":["Explainability","Machine Learning"], "github":"https://github.com/PacktPublishing/Interpretable-Machine-Learning-with-Python",
+    "online":"", "blurb":"Técnicas de interpretabilidad en ML moderno.", "tags":["GitHub","Explainability"] },
+
+  { "title":"Hands-On Data Analysis with Pandas", "author":"Stefanie Molin", "lang":"Python",
+    "topic":["Estadística","Visualización"], "github":"https://github.com/stefmolin/Hands-On-Data-Analysis-with-Pandas",
+    "online":"", "blurb":"Análisis exploratorio, limpieza y visualización con Pandas.", "tags":["GitHub"] },
+
+  { "title":"Think Bayes 2", "author":"Allen B. Downey", "lang":"Python",
+    "topic":["Bayes","Estadística"], "github":"https://github.com/AllenDowney/ThinkBayes2",
+    "online":"https://allendowney.github.io/ThinkBayes2", "blurb":"Inferencia bayesiana práctica con Python.",
+    "tags":["GitHub","Online","Bayes"] },
+
+  { "title":"Notes for The Elements of Statistical Learning", "author":"Madiyar Aitbayev", "lang":"Python",
+    "topic":["Estadística","Machine Learning"], "github":"https://github.com/maitbayev/the-elements-of-statistical-learning",
+    "online":"", "blurb":"Notas y notebooks del clásico ESL.", "tags":["GitHub"] },
+
+  { "title":"Getting Started with SQL", "author":"Thomas Nield", "lang":"General",
+    "topic":["SQL","Data Engineering"], "github":"https://github.com/thomasnield/oreilly_getting_started_with_sql",
+    "online":"", "blurb":"Archivos y materiales del libro de SQL para principiantes.", "tags":["GitHub","SQL"] },
+
+  { "title":"Data Science at the Command Line (2ª ed.)", "author":"Jeroen Janssens", "lang":"General",
+    "topic":["Data Engineering","Visualización"], "github":"https://github.com/jeroenjanssens/data-science-at-the-command-line",
+    "online":"https://datascienceatthecommandline.com/2e/", "blurb":"Flujos reproducibles de datos desde la terminal.",
+    "tags":["GitHub","Online"] },
+
+  { "title":"Algorithmic Short Selling with Python", "author":"Packt Publishing (repo)", "lang":"Python",
+    "topic":["Finanzas","Machine Learning"],
+    "github":"https://github.com/PacktPublishing/Algorithmic-Short-Selling-with-Python-Published-by-Packt",
+    "online":"", "blurb":"Estrategias cuant y short selling con Python.", "tags":["GitHub","Finanzas"] },
+
+  { "title":"ESL Python Notebooks", "author":"empathy87", "lang":"Python",
+    "topic":["Estadística","Machine Learning"], "github":"https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks",
+    "online":"", "blurb":"Notebooks Python para Elements of Statistical Learning.", "tags":["GitHub"] },
+
+  { "title":"Python Deep Learning", "author":"Jordi Torres", "lang":"Python",
+    "topic":["Deep Learning"], "github":"https://github.com/jorditorresBCN/python-deep-learning",
+    "online":"", "blurb":"Código del libro Python Deep Learning (ES).", "tags":["GitHub","DL","ES"] },
+
+  { "title":"Deep Learning with Python (Notebooks)", "author":"François Chollet (notebooks por @jorditorresBCN)",
+    "lang":"Python", "topic":["Deep Learning"], "github":"https://github.com/jorditorresBCN/deep-learning-with-python-notebooks",
+    "online":"", "blurb":"Notebooks del libro de Chollet.", "tags":["GitHub","DL"] },
+
+  { "title":"Algoritmos Genéticos en Python: Un Enfoque Práctico", "author":"Dany503", "lang":"Python",
+    "topic":["Genetic Algorithms","Optimization"], "github":"https://github.com/Dany503/Algoritmos-Geneticos-en-Python-Un-Enfoque-Practico",
+    "online":"", "blurb":"Implementaciones prácticas de AG en Python (ES).", "tags":["GitHub","GA","ES"] },
+
+  { "title":"Genetic Algorithms With Python", "author":"handcraftsman", "lang":"Python",
+    "topic":["Genetic Algorithms","Optimization"], "github":"https://github.com/handcraftsman/GeneticAlgorithmsWithPython",
+    "online":"", "blurb":"Ejemplos de algoritmos genéticos en Python.", "tags":["GitHub","GA"] },
+
+  { "title":"Deep Learning: A Visual Approach", "author":"blueberrymusic (repo)", "lang":"General",
+    "topic":["Deep Learning","Visualización"], "github":"https://github.com/blueberrymusic/Deep-Learning-A-Visual-Approach",
+    "online":"", "blurb":"Material visual para entender DL.", "tags":["GitHub","DL"] },
+
+  { "title":"Free Python Books (lista)", "author":"Paolo Amoroso", "lang":"Python",
+    "topic":["Meta"], "github":"https://github.com/pamoroso/free-python-books", "online":"",
+    "blurb":"Listado curado de libros gratuitos de Python.", "tags":["GitHub","Meta"] },
+
+  { "title":"MicroPython Projects", "author":"Packt Publishing (repo)", "lang":"Python",
+    "topic":["IoT","Data Engineering"], "github":"https://github.com/PacktPublishing/MicroPython-Projects",
+    "online":"", "blurb":"Proyectos de MicroPython para microcontroladores.", "tags":["GitHub","IoT"] },
+
+  { "title":"Estadística para Ciencias Sociales con R", "author":"Juan Carlos Rodríguez (y col.)", "lang":"R",
+    "topic":["Estadística"], "github":"https://github.com/jcrodriguez1989/EstadisticaParaCienciasSocialesConR",
+    "online":"", "blurb":"Materiales del libro de estadística aplicada en R (ES).", "tags":["GitHub","ES"] },
+
+  { "title":"Telling Stories with Data", "author":"Rohan Alexander", "lang":"General",
+    "topic":["Visualización","Comunicación"], "github":"https://github.com/RohanAlexander/telling_stories",
+    "online":"", "blurb":"Narrativa con datos y buenas prácticas de comunicación.", "tags":["GitHub","Viz"] },
+
+  { "title":"Fundamentos de ciencia de datos con R", "author":"G. Fernández-Avilés, J.M. Montero (eds.)", "lang":"R",
+    "topic":["Estadística","Machine Learning","Visualización"], "github":"https://github.com/cdr-book/cdr-book.github.io",
+    "online":"https://cdr-book.github.io/", "blurb":"Libro abierto de ciencia de datos con R (ES).",
+    "tags":["GitHub","Online","ES"] },
+
+  { "title":"Mathematics for Machine Learning", "author":"Deisenroth, Faisal, Ong", "lang":"General",
+    "topic":["Estadística","Machine Learning"], "github":"https://github.com/mml-book/mml-book.github.io",
+    "online":"https://mml-book.com", "blurb":"Fundamentos matemáticos para ML, con cuadernos y ejercicios.",
+    "tags":["GitHub","Online"] },
+
+  { "title":"Dive into Deep Learning (D2L)", "author":"Zhang, Lipton, Li, Smola", "lang":"Python",
+    "topic":["Deep Learning"], "github":"https://github.com/d2l-ai/d2l-en", "online":"https://d2l.ai/",
+    "blurb":"Libro interactivo de DL con código multi-framework.", "tags":["GitHub","Online","DL"] },
+
+  { "title":"Machine Learning with PyTorch and Scikit-Learn", "author":"Raschka, Liu, Mirjalili", "lang":"Python",
+    "topic":["Machine Learning","Deep Learning"], "github":"https://github.com/rasbt/machine-learning-book",
+    "online":"", "blurb":"Repo de código del libro (PyTorch + scikit-learn).", "tags":["GitHub","DL"] },
+
+  { "title":"Advanced R (2ª ed.)", "author":"Hadley Wickham", "lang":"R",
+    "topic":["Programación","R Internals"], "github":"https://github.com/hadley/adv-r", "online":"https://adv-r.hadley.nz/",
+    "blurb":"Profundiza en fundamentos y mecánica interna de R.", "tags":["Online"] },
+
+  { "title":"An Introduction to Data Science", "author":"Rafael A. Irizarry", "lang":"R",
+    "topic":["Estadística","Machine Learning","Visualización"], "github":"https://github.com/rafalab/dsbook",
+    "online":"https://rafalab.dfci.harvard.edu/dsbook/", "blurb":"Introducción amplia a ciencia de datos con R.",
+    "tags":["Online"] },
+
+  { "title":"Data Visualization", "author":"Kieran Healy", "lang":"R",
+    "topic":["Visualización"], "github":"https://github.com/kjhealy/socviz", "online":"https://socviz.co/",
+    "blurb":"Principios y práctica de visualización con R.", "tags":["Online","Viz"] },
+
+  { "title":"Fundamentals of Data Visualization", "author":"Claus O. Wilke", "lang":"General",
+    "topic":["Visualización"], "github":"https://github.com/clauswilke/dataviz", "online":"https://clauswilke.com/dataviz/",
+    "blurb":"Guía para gráficas claras, precisas y elegantes.", "tags":["Online","Viz"] },
+
+  { "title":"ggplot2: Elegant Graphics for Data Analysis", "author":"Hadley Wickham", "lang":"R",
+    "topic":["Visualización"], "github":"https://github.com/hadley/ggplot2-book", "online":"https://ggplot2-book.org/",
+    "blurb":"El libro del ecosistema ggplot2.", "tags":["Online","Viz"] },
+
+  { "title":"Hands-On Data Visualization", "author":"Jack Dougherty, Ilya Ilyankou", "lang":"General",
+    "topic":["Visualización","Web"], "github":"https://github.com/HandsOnDataViz/book", "online":"https://handsondataviz.org/",
+    "blurb":"Visualización interactiva en la web paso a paso.", "tags":["Online","Viz"] },
+
+  { "title":"Improving Your Statistical Inferences", "author":"Daniel Lakens", "lang":"General",
+    "topic":["Estadística"], "github":"https://github.com/Lakens/Improving-your-statistical-inferences",
+    "online":"https://lakens.github.io/statistical_inferences/", "blurb":"Guía práctica para inferencia estadística rigurosa.",
+    "tags":["Online"] },
+
+  { "title":"Introduction to Data Science (HarvardX)", "author":"Rafael A. Irizarry", "lang":"R",
+    "topic":["Estadística","Machine Learning"], "github":"", "online":"https://rafalab.dfci.harvard.edu/dsbook-part-1/",
+    "blurb":"Material de la serie HarvardX Data Science.", "tags":["Online"] },
+
+  { "title":"Introducción a la Ciencia de Datos (ES)", "author":"Rafael A. Irizarry", "lang":"R",
+    "topic":["Estadística","Machine Learning"], "github":"https://github.com/rafalab/dslibro",
+    "online":"https://rafalab.dfci.harvard.edu/libro-introduccion/",
+    "blurb":"Versión en español del libro de introducción a DS.", "tags":["Online","ES"] },
+
+  { "title":"Introduction to Modern Statistics", "author":"Mine Çetinkaya-Rundel, Johanna Hardin", "lang":"R",
+    "topic":["Estadística"], "github":"https://github.com/OpenIntroStat/ims", "online":"https://openintro-ims.netlify.app/",
+    "blurb":"Estadística moderna con énfasis en análisis de datos.", "tags":["Online"] },
+
+  { "title":"Learning Statistics with jamovi", "author":"David Foxcroft", "lang":"General",
+    "topic":["Estadística"], "github":"", "online":"https://davidfoxcroft.github.io/lsj-book/",
+    "blurb":"Introducción a estadística usando jamovi.", "tags":["Online"] },
+
+  { "title":"Learning Statistics with R", "author":"Danielle Navarro", "lang":"R",
+    "topic":["Estadística"], "github":"https://github.com/djnavarro/lsr", "online":"https://learningstatisticswithr.com/",
+    "blurb":"Curso/libro de estadística con R.", "tags":["Online"] },
+
+  { "title":"Mastering Shiny", "author":"Hadley Wickham", "lang":"R",
+    "topic":["Visualización","Web"], "github":"https://github.com/hadley/mastering-shiny",
+    "online":"https://mastering-shiny.org/", "blurb":"Construcción de apps web interactivas con Shiny.",
+    "tags":["Online","Viz"] },
+
+  { "title":"Modern Statistics with R", "author":"Søren Højsgaard, Ulrich Halekoh, Jūnius S. Prūse", "lang":"R",
+    "topic":["Estadística"], "github":"https://github.com/tylermorganwall/ModernStatisticsWithR",
+    "online":"https://modernstatisticswithr.com/", "blurb":"Recorrido actual por métodos estadísticos en R.",
+    "tags":["Online"] },
+
+  { "title":"R for Data Science (2e)", "author":"Hadley Wickham, Garrett Grolemund", "lang":"R",
+    "topic":["Estadística","Visualización"], "github":"https://github.com/hadley/r4ds",
+    "online":"https://r4ds.hadley.nz/", "blurb":"El libro del tidyverse para análisis de datos.", "tags":["Online","Viz"] },
+
+  { "title":"R Graphics Cookbook (2e)", "author":"Winston Chang", "lang":"R",
+    "topic":["Visualización"], "github":"https://github.com/wch/rgc2", "online":"https://r-graphics.org/",
+    "blurb":"Recetas prácticas de gráficos con R/ggplot2.", "tags":["Online","Viz"] },
+
+  {
+    "title": "Advanced R (2ª ed.)",
+    "author": "Hadley Wickham",
+    "lang": "R",
+    "topic": ["Programación", "R Internals"],
+    "github": "https://github.com/hadley/adv-r",
+    "online": "https://adv-r.hadley.nz/",
+    "blurb": "Profundiza en la programación avanzada en R, incluyendo expresiones, entornos y programación orientada a objetos.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "An Introduction to Data Science",
+    "author": "Rafael A. Irizarry",
+    "lang": "R",
+    "topic": ["Estadística", "Machine Learning", "Visualización"],
+    "github": "https://github.com/rafalab/dsbook",
+    "online": "https://rafalab.dfci.harvard.edu/dsbook-part-1/",
+    "blurb": "Introducción a la ciencia de datos con R, cubriendo probabilidad, inferencia, machine learning y visualización.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "Data Visualization",
+    "author": "Kieran Healy",
+    "lang": "R",
+    "topic": ["Visualización"],
+    "github": "https://github.com/kjhealy/socviz",
+    "online": "https://socviz.co/",
+    "blurb": "Guía práctica para diseñar visualizaciones claras y efectivas con R.",
+    "tags": ["Online", "Viz"]
+  },
+  {
+    "title": "Data Visualization: A Practical Introduction",
+    "author": "Kieran Healy",
+    "lang": "R",
+    "topic": ["Visualización"],
+    "github": "https://github.com/kjhealy/socviz",
+    "online": "https://socviz.co/index.html",
+    "blurb": "Introducción práctica a la visualización de datos con ejemplos reales y conceptos clave.",
+    "tags": ["Online", "Viz"]
+  },
+  {
+    "title": "Fundamentals of Data Visualization",
+    "author": "Claus O. Wilke",
+    "lang": "General",
+    "topic": ["Visualización"],
+    "github": "https://github.com/clauswilke/dataviz",
+    "online": "https://clauswilke.com/dataviz/",
+    "blurb": "Teoría y práctica para crear visualizaciones claras, precisas y efectivas.",
+    "tags": ["Online", "Viz"]
+  },
+  {
+    "title": "ggplot2: Elegant Graphics for Data Analysis",
+    "author": "Hadley Wickham",
+    "lang": "R",
+    "topic": ["Visualización"],
+    "github": "https://github.com/hadley/ggplot2-book",
+    "online": "https://ggplot2-book.org/",
+    "blurb": "Profundiza en el uso de ggplot2 para crear gráficos elegantes y potentes en R.",
+    "tags": ["Online", "Viz"]
+  },
+  {
+    "title": "Hands-On Data Visualization",
+    "author": "Jack Dougherty, Ilya Ilyankou",
+    "lang": "General",
+    "topic": ["Visualización", "Web"],
+    "github": "https://github.com/HandsOnDataViz/book",
+    "online": "https://handsondataviz.org/",
+    "blurb": "Guía práctica para crear visualizaciones interactivas y atractivas usando tecnologías web.",
+    "tags": ["Online", "Viz"]
+  },
+  {
+    "title": "Improving Your Statistical Inferences",
+    "author": "Daniel Lakens",
+    "lang": "General",
+    "topic": ["Estadística"],
+    "github": "https://github.com/Lakens/Improving-your-statistical-inferences",
+    "online": "https://lakens.github.io/statistical_inferences/",
+    "blurb": "Mejora la calidad de la inferencia estadística: p-valores, intervalos de confianza y análisis de potencia.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "Introduction to Data Science",
+    "author": "Rafael A. Irizarry",
+    "lang": "R",
+    "topic": ["Estadística", "Machine Learning"],
+    "github": "",
+    "online": "https://rafalab.dfci.harvard.edu/dsbook/introduction.html",
+    "blurb": "Panorama general de la ciencia de datos y sus aplicaciones en R.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "Introducción a la Ciencia de Datos",
+    "author": "Rafael A. Irizarry",
+    "lang": "R",
+    "topic": ["Estadística", "Machine Learning"],
+    "github": "https://github.com/rafalab/dslibro",
+    "online": "https://rafalab.dfci.harvard.edu/dslibro/",
+    "blurb": "Versión en español del libro de introducción a la ciencia de datos con R.",
+    "tags": ["Online", "ES"]
+  },
+  {
+    "title": "Introduction to Modern Statistics",
+    "author": "Mine Çetinkaya-Rundel, Johanna Hardin",
+    "lang": "R",
+    "topic": ["Estadística"],
+    "github": "https://github.com/OpenIntroStat/ims",
+    "online": "https://openintro-ims.netlify.app/",
+    "blurb": "Estadística moderna con énfasis en el análisis de datos y la práctica computacional.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "Learning Statistics with jamovi",
+    "author": "David Foxcroft",
+    "lang": "General",
+    "topic": ["Estadística"],
+    "github": "",
+    "online": "https://davidfoxcroft.github.io/lsj-book/",
+    "blurb": "Introducción a la estadística usando jamovi en un entorno intuitivo y amigable.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "Learning Statistics with R",
+    "author": "Dani Navarro",
+    "lang": "R",
+    "topic": ["Estadística"],
+    "github": "https://github.com/djnavarro/lsr",
+    "online": "https://learningstatisticswithr.com/book/",
+    "blurb": "Aprende estadística de forma aplicada usando R, desde lo descriptivo a lo inferencial.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "Mastering Shiny",
+    "author": "Hadley Wickham",
+    "lang": "R",
+    "topic": ["Visualización", "Web"],
+    "github": "https://github.com/hadley/mastering-shiny",
+    "online": "https://mastering-shiny.org/",
+    "blurb": "Construye aplicaciones web interactivas con R y Shiny, desde lo básico hasta avanzado.",
+    "tags": ["Online", "Viz"]
+  },
+  {
+    "title": "Modern Statistics with R",
+    "author": "Søren Højsgaard, Ulrich Halekoh, Jūnius S. Prūse",
+    "lang": "R",
+    "topic": ["Estadística"],
+    "github": "https://github.com/tylermorganwall/ModernStatisticsWithR",
+    "online": "https://modernstatisticswithr.com/index.html",
+    "blurb": "Guía completa de métodos estadísticos aplicados en R.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "R for Data Science",
+    "author": "Hadley Wickham, Garrett Grolemund",
+    "lang": "R",
+    "topic": ["Estadística", "Visualización"],
+    "github": "https://github.com/hadley/r4ds",
+    "online": "https://r4ds.had.co.nz/",
+    "blurb": "Introducción práctica al análisis de datos con R y el tidyverse.",
+    "tags": ["Online", "Viz"]
+  },
+  {
+    "title": "R Graphics Cookbook",
+    "author": "Winston Chang",
+    "lang": "R",
+    "topic": ["Visualización"],
+    "github": "https://github.com/wch/rgc2",
+    "online": "https://r-graphics.org/",
+    "blurb": "Recetas prácticas para crear gráficos impactantes con ggplot2 y R.",
+    "tags": ["Online", "Viz"]
+  },
+  {
+    "title": "R in Action, 2nd Edition",
+    "author": "Robert Kabacoff",
+    "lang": "R",
+    "topic": ["Estadística", "Programación"],
+    "github": "",
+    "online": "https://livebook.manning.com/book/r-in-action-second-edition/about-this-book/",
+    "blurb": "Cobertura amplia del análisis estadístico y desarrollo de aplicaciones en R.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "R Programming for Data Science",
+    "author": "Roger D. Peng",
+    "lang": "R",
+    "topic": ["Programación", "Data Engineering"],
+    "github": "",
+    "online": "https://bookdown.org/rdpeng/rprogdatascience/",
+    "blurb": "Introducción a la programación en R aplicada a la ciencia de datos.",
+    "tags": ["Online"]
+  },
+  {
+    "title": "The Art of Data Science",
+    "author": "Roger D. Peng, Elizabeth Matsui",
+    "lang": "General",
+    "topic": ["Data Analysis", "Comunicación"],
+    "github": "",
+    "online": "https://bookdown.org/rdpeng/artofdatascience/",
+    "blurb": "Una guía sobre el proceso de análisis de datos, de la pregunta inicial a la interpretación de resultados.",
+    "tags": ["Online"]
+  }
+]
+
