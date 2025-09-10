@@ -93,7 +93,7 @@
     "topic":["Visualización","Comunicación"], "github":"https://github.com/RohanAlexander/telling_stories",
     "online":"", "blurb":"Narrativa con datos y buenas prácticas de comunicación.", "tags":["GitHub","Viz"] },
 
-  { "title":"Fundamentos de ciencia de datos con R", "author":"G. Fernández-Avilés, J.M. Montero (eds.)", "lang":"R",
+  { "title":"Fundamentos de Ciencia de Datos con R", "author":"G. Fernández-Avilés, J.M. Montero (eds.)", "lang":"R",
     "topic":["Estadística","Machine Learning","Visualización"], "github":"https://github.com/cdr-book/cdr-book.github.io",
     "online":"https://cdr-book.github.io/", "blurb":"Libro abierto de ciencia de datos con R (ES).",
     "tags":["GitHub","Online","ES"] },
@@ -145,10 +145,6 @@
   { "title":"Introduction to Modern Statistics", "author":"Mine Çetinkaya-Rundel, Johanna Hardin", "lang":"R",
     "topic":["Estadística"], "github":"https://github.com/OpenIntroStat/ims", "online":"https://openintro-ims.netlify.app/",
     "blurb":"Estadística moderna con énfasis en análisis de datos.", "tags":["Online"] },
-
-  { "title":"Learning Statistics with jamovi", "author":"David Foxcroft", "lang":"General",
-    "topic":["Estadística"], "github":"", "online":"https://davidfoxcroft.github.io/lsj-book/",
-    "blurb":"Introducción a estadística usando jamovi.", "tags":["Online"] },
 
   { "title":"Learning Statistics with R", "author":"Danielle Navarro", "lang":"R",
     "topic":["Estadística"], "github":"https://github.com/djnavarro/lsr", "online":"https://learningstatisticswithr.com/",

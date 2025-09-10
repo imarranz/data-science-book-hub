@@ -58,6 +58,48 @@
     .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
     .empty{color:var(--muted); text-align:center; padding:32px 0}
     .err{color:#b91c1c}
+
+    .menu-container {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .menu-button {
+      font-size: 24px;
+      cursor: pointer;
+      background: #333;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+
+    .menu-dropdown {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: var(--card);
+      min-width: 400px;
+      box-shadow: 0px 2px 8px rgba(100,100,100,0.2);
+      padding: 10px;
+      border-radius: 15px;
+    }
+
+    .menu-dropdown a {
+      display: block;
+      padding: 5px 0;
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    .menu-dropdown a:hover {
+      text-decoration: underline;
+    }
+
+    .menu-dropdown.show {
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -113,6 +155,7 @@
         </select>
       </div>
       <p id="counter" style="color: var(--muted); margin: 6px 0 0;"></p>
+      <p id="counter" class="count"></p>
     </header>
 
     <main aria-live="polite">
@@ -131,64 +174,81 @@
     </footer>
   </div>
 
-<script>
-const grid = document.getElementById('grid');
-const statusEl = document.getElementById('status');
-const q = document.getElementById('q');
-const lang = document.getElementById('lang');
-const topic = document.getElementById('topic');
+  <div class="menu-container">
+    <div class="menu-button" onclick="toggleMenu()">&#9776;</div>
+    <div class="menu-dropdown" id="menu">
+      <p style="font-size:1.5rem;"><strong>Data Science Book Hub</strong></p>
+      <hr>
+      <p style="color:var(--muted); font-size:0.89rem; margin-top:2px;">
+        Una colección de libros y recursos abiertos de Data Science para estudiantes, profesionales y entusiastas. Filtra por temas, encuentra tu próxima lectura y ábrela al instante en GitHub o en su versión online.
+      </p>
+      <p>&#128100; Ibon Martínez-Arranz (@imarranz)</p>
+      <a href="https://github.com/imarranz/data-science-book-hub" target="_blank"><strong>&#128194; ir al repositorio </strong></a>
+    </div>
+  </div>
 
-let BOOKS = [];
+  <script>
+    const grid = document.getElementById('grid');
+    const statusEl = document.getElementById('status');
+    const q = document.getElementById('q');
+    const lang = document.getElementById('lang');
+    const topic = document.getElementById('topic');
+    const counter = document.getElementById('counter');
 
-function matches(book){
-  const query = (q.value || "").toLowerCase();
-  const haystack = [book.title, book.author, book.blurb, ...(book.topic||[]), ...(book.tags||[])].join(" ").toLowerCase();
-  const qok = !query || haystack.includes(query);
-  const lok = !lang.value || (book.lang === lang.value);
-  const tok = !topic.value || (book.topic||[]).includes(topic.value);
-  return qok && lok && tok;
-}
+    let BOOKS = [];
 
-function card(book){
-  const t = (book.topic||[]).map(x=>`<span class="chip" aria-label="tema">${x}</span>`).join("");
-  const s = (book.tags||[]).map(x=>`<span class="chip">${x}</span>`).join("");
-  return `
-    <article class="card" role="article">
-      <h3 class="title">${book.title}</h3>
-      <div class="meta">${book.author} • ${book.lang}</div>
-      <div class="chips">${t}${s}</div>
-      ${book.blurb ? `<p>${book.blurb}</p>` : ""}
-      <div class="actions">
-        ${book.github ? `<a class="btn" href="${book.github}" target="_blank" rel="noopener">GitHub</a>` : ""}
-        ${book.online ? `<a class="btn primary" href="${book.online}" target="_blank" rel="noopener">Leer online</a>` : ""}
-      </div>
-    </article>
-  `;
-}
+    function matches(book){
+      const query = (q.value || "").toLowerCase();
+      const haystack = [book.title, book.author, book.blurb, ...(book.topic||[]), ...(book.tags||[])].join(" ").toLowerCase();
+      const qok = !query || haystack.includes(query);
+      const lok = !lang.value || (book.lang === lang.value);
+      const tok = !topic.value || (book.topic||[]).includes(topic.value);
+      return qok && lok && tok;
+    }
 
-function render(){
-  const items = BOOKS.filter(matches);
-  grid.innerHTML = items.map(card).join("");
-  statusEl.textContent = items.length ? "" : "No se encontraron libros con esos filtros.";
-}
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
 
-async function loadBooks(){
-  try{
-    // cache-bust sencillo por si GitHub Pages sirve versión antigua:
-    const res = await fetch('books.json?v=' + Date.now());
-    if(!res.ok) throw new Error("HTTP " + res.status);
-    BOOKS = await res.json();
-    render();
-  }catch(err){
-    statusEl.innerHTML = `<span class="err">Error cargando books.json</span>. Verifica que el archivo existe en /docs y que GitHub Pages está activo.`;
-  }
-}
+    function card(book){
+      const t = (book.topic||[]).map(x=>`<span class="chip" aria-label="tema">${x}</span>`).join("");
+      const s = (book.tags||[]).map(x=>`<span class="chip">${x}</span>`).join("");
+      return `
+        <article class="card" role="article">
+          <h3 class="title">${book.title}</h3>
+          <div class="meta">${book.author} • ${book.lang}</div>
+          <div class="chips">${t}${s}</div>
+          ${book.blurb ? `<p>${book.blurb}</p>` : ""}
+          <div class="actions">
+            ${book.github ? `<a class="btn" href="${book.github}" target="_blank" rel="noopener">GitHub</a>` : ""}
+            ${book.online ? `<a class="btn primary" href="${book.online}" target="_blank" rel="noopener">Leer online</a>` : ""}
+          </div>
+        </article>
+      `;
+    }
 
+    async function loadBooks(){
+      try{
+        // cache-bust sencillo por si GitHub Pages sirve versión antigua:
+        const res = await fetch('books.json?v=' + Date.now());
+        if(!res.ok) throw new Error("HTTP " + res.status);
+        BOOKS = await res.json();
+        render();
+      }catch(err){
+        statusEl.innerHTML = `<span class="err">Error cargando books.json</span>. Verifica que el archivo existe en /docs y que GitHub Pages está activo.`;
+      }
+    }
 
+    function render(){
+      const items = BOOKS.filter(matches);
+      grid.innerHTML = items.map(card).join("");
+      statusEl.textContent = items.length ? "" : "No se encontraron libros con esos filtros.";
+      counter.textContent = `Mostrando ${items.length} de ${BOOKS.length} libros/recursos`;
+    }
 
-[q, lang, topic].forEach(el => el.addEventListener('input', render));
-loadBooks();
-</script>
+    [q, lang, topic].forEach(el => el.addEventListener('input', render));
+    loadBooks();
+  </script>
 </body>
 </html>
 
