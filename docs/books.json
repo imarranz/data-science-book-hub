@@ -79,7 +79,7 @@
 
   { "title":"Free Python Books (lista)", "author":"Paolo Amoroso", "lang":"Python",
     "topic":["Meta"], "github":"https://github.com/pamoroso/free-python-books", "online":"",
-    "blurb":"Listado curado de libros gratuitos de Python.", "tags":["GitHub","Meta"] },
+    "blurb":"Listado de libros gratuitos de Python.", "tags":["GitHub","Meta"] },
 
   { "title":"MicroPython Projects", "author":"Packt Publishing (repo)", "lang":"Python",
     "topic":["IoT","Data Engineering"], "github":"https://github.com/PacktPublishing/MicroPython-Projects",
@@ -111,10 +111,6 @@
     "topic":["Machine Learning","Deep Learning"], "github":"https://github.com/rasbt/machine-learning-book",
     "online":"", "blurb":"Repo de código del libro (PyTorch + scikit-learn).", "tags":["GitHub","DL"] },
 
-  { "title":"Advanced R (2ª ed.)", "author":"Hadley Wickham", "lang":"R",
-    "topic":["Programación","R Internals"], "github":"https://github.com/hadley/adv-r", "online":"https://adv-r.hadley.nz/",
-    "blurb":"Profundiza en fundamentos y mecánica interna de R.", "tags":["Online"] },
-
   { "title":"An Introduction to Data Science", "author":"Rafael A. Irizarry", "lang":"R",
     "topic":["Estadística","Machine Learning","Visualización"], "github":"https://github.com/rafalab/dsbook",
     "online":"https://rafalab.dfci.harvard.edu/dsbook/", "blurb":"Introducción amplia a ciencia de datos con R.",
@@ -131,10 +127,6 @@
   { "title":"ggplot2: Elegant Graphics for Data Analysis", "author":"Hadley Wickham", "lang":"R",
     "topic":["Visualización"], "github":"https://github.com/hadley/ggplot2-book", "online":"https://ggplot2-book.org/",
     "blurb":"El libro del ecosistema ggplot2.", "tags":["Online","Viz"] },
-
-  { "title":"Hands-On Data Visualization", "author":"Jack Dougherty, Ilya Ilyankou", "lang":"General",
-    "topic":["Visualización","Web"], "github":"https://github.com/HandsOnDataViz/book", "online":"https://handsondataviz.org/",
-    "blurb":"Visualización interactiva en la web paso a paso.", "tags":["Online","Viz"] },
 
   { "title":"Improving Your Statistical Inferences", "author":"Daniel Lakens", "lang":"General",
     "topic":["Estadística"], "github":"https://github.com/Lakens/Improving-your-statistical-inferences",
@@ -161,11 +153,6 @@
   { "title":"Learning Statistics with R", "author":"Danielle Navarro", "lang":"R",
     "topic":["Estadística"], "github":"https://github.com/djnavarro/lsr", "online":"https://learningstatisticswithr.com/",
     "blurb":"Curso/libro de estadística con R.", "tags":["Online"] },
-
-  { "title":"Mastering Shiny", "author":"Hadley Wickham", "lang":"R",
-    "topic":["Visualización","Web"], "github":"https://github.com/hadley/mastering-shiny",
-    "online":"https://mastering-shiny.org/", "blurb":"Construcción de apps web interactivas con Shiny.",
-    "tags":["Online","Viz"] },
 
   { "title":"Modern Statistics with R", "author":"Søren Højsgaard, Ulrich Halekoh, Jūnius S. Prūse", "lang":"R",
     "topic":["Estadística"], "github":"https://github.com/tylermorganwall/ModernStatisticsWithR",
