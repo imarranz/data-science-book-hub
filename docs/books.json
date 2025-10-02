@@ -430,6 +430,16 @@
     "online": "https://polarsguide.com/",
     "blurb": "A comprehensive guide to data manipulation and analysis using Polars, the fast DataFrame library for Python.",
     "tags": ["Online"]
+  },
+  {
+    "title": "Data Science from Scratch",
+    "author": "Joel Grus",
+    "lang": "Python",
+    "topic": ["Data Science", "Machine Learning", "Statistics", "Algorithms", "Python"],
+    "github": "https://github.com/joelgrus/data-science-from-scratch",
+    "online": "",
+    "blurb": "An introductory book that builds data science concepts from the ground up, implementing algorithms and models from scratch in Python.",
+    "tags": ["Book"]
   }
 ]
 
